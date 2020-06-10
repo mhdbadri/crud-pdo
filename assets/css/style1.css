@@ -1,0 +1,135 @@
+body
+{
+	
+	margin:0;
+	padding:0;
+	background:url("../images/backgroundlogin.jpeg");
+	background-size:cover;
+	font-family: sans-serif; 
+}
+
+.formlogin
+{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	width:350px;
+	height:420px;
+	padding:80px 40px;
+	box-sizing: border-box;
+	background: #34bca3 ;
+	
+}
+
+
+
+h2
+{
+	margin:0;
+	padding:0 0 20px;
+	color:#3853ea;
+	text-align:center;
+} 
+
+
+
+.formlogin p
+{
+	padding:0;
+	margin:0;
+	font-weight:bold;
+	color:#fff;
+	
+} 
+
+
+.formlogin input
+{
+	width:100%;
+	margin-bottom: 20px; 
+}
+
+.formlogin input[type="text"], .formlogin input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size: 16px;
+	
+	
+}
+.logout {
+	margin-left: 50px;
+}
+
+
+.formlogin input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height: 40px;
+	color:#fff;
+	font-size:16px;
+	background: #1ebf29;
+	cursor:pointer;
+	border-radius:20px;
+}
+
+.formlogin input[type="reset"]
+{
+	border:none;
+	outline:none;
+	height: 40px;
+	color:#fff;
+	font-size:16px;
+	background: #FF267E;
+	cursor:pointer;
+	border-radius:20px;
+}
+
+.formlogin input[type="submit"]:hover
+{
+	background: #1da8c4;
+	color: #262626;
+}
+.formlogin input[type="reset"]:hover
+{
+	background: #efed40;
+	color: #262626;
+}
+
+
+
+ 
+ 
+
+.formlogin a
+{
+	color: #fff;
+	font-size:14px;
+	font-weight:bold;
+} 
+
+
+::placeholder
+{
+	color:rgba(255,255,255,0.5); 
+}
+
+
+.user
+{
+	width:100px;
+	height:100px; 
+	overflow:hidden;
+	position:absolute;
+	top:calc(-100px/2);
+	left:calc(50% - 50px);
+	border-radius:50%;
+}
+ 
+
